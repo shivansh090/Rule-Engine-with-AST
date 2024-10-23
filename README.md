@@ -1,20 +1,28 @@
 # Rule Engine
 
-A sophisticated 3-tier rule engine application that determines user eligibility based on attributes such as age, department, income, and experience. This system leverages an Abstract Syntax Tree (AST) to represent conditional rules, enabling dynamic creation, combination, and modification of complex rule sets.
+## Key Features
+
+- **Advanced 3-Tier Rule Engine:** Dynamically evaluates user eligibility based on multiple attributes.
+- **AST-Based Rule Representation:** Uses abstract syntax trees for flexible rule creation and management.
+- **Dynamic Rule Versioning:** Supports rule updates with history tracking and rollback.
+- **Performance-Optimized Evaluation:** Efficient processing of complex rules across large datasets.
+
+
 ## Demo
-![Demo](./RuleEngineFrontend/src/assets/image.png)
+
+<img src="./RuleEngineFrontend/src/assets/image.png" height=500>
+
 ## Table of Contents
 
 1. [Features](#features)
 2. [Technologies Used](#technologies-used)
-3. [Project Structure](#project-structure)
-4. [Prerequisites](#prerequisites)
-5. [Setup and Installation](#setup-and-installation)
-6. [Running the Application](#running-the-application)
-7. [API Endpoints](#api-endpoints)
-8. [Usage Guide](#usage-guide)
-9. [Design Choices](#design-choices)
-10. [Future Enhancements](#future-enhancements)
+3. [Prerequisites](#prerequisites)
+4. [Setup and Installation](#setup-and-installation)
+5. [Running the Application](#running-the-application)
+6. [API Endpoints](#api-endpoints)
+7. [Usage Guide](#usage-guide)
+8. [Design Choices](#design-choices)
+9. [Future Enhancements](#future-enhancements)
 
 ## Features
 
@@ -36,31 +44,6 @@ A sophisticated 3-tier rule engine application that determines user eligibility 
   - Axios (v0.21+)
   - Tailwind CSS (v2.2+)
 
-## Project Structure
-rule-engine/
-├── backend/
-│   ├── models/
-│   │   └── Rule.js
-│   ├── routes/
-│   │   └── ruleRoutes.js
-│   ├── utils/
-│   │   └── ruleEngine.js
-│   ├── middleware/
-│   │   └── validateAttributes.js
-│   ├── server.js
-│   └── package.json
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── CreateRule.tsx
-│   │   │   ├── ExistingRules.tsx
-│   │   │   └── EvaluateRules.tsx
-│   │   ├── App.tsx
-│   │   └── index.tsx
-│   ├── public/
-│   │   └── index.html
-│   └── package.json
-└── README.md
 
 
 ## Prerequisites
