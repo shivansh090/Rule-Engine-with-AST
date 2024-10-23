@@ -1,7 +1,8 @@
 # Rule Engine
 
 A sophisticated 3-tier rule engine application that determines user eligibility based on attributes such as age, department, income, and experience. This system leverages an Abstract Syntax Tree (AST) to represent conditional rules, enabling dynamic creation, combination, and modification of complex rule sets.
-
+## Demo
+![Demo](./RuleEngineFrontend/src/assets/image.png)
 ## Table of Contents
 
 1. [Features](#features)
